@@ -24,7 +24,7 @@ public class HourlyEmployee extends Employee
     {
         return "Employee{" + "firstName=" + getFirstName() + ", lastName="
                 + getLastName() + ", ssn=" + getSsn() + ", weeklySalary="
-                + calcWeeklySalary() + '}'; //To change body of generated methods, choose Tools | Templates.
+                + calcWeeklySalary() + '}';
     }
 
     private double calcWeeklySalary()
